@@ -72,5 +72,20 @@ namespace DesktopHumansDepartment
                 messageLabel.Visibility = Visibility.Visible;
             }
         }
+
+        private void byPosition_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void bySumProjects_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void notSorted_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

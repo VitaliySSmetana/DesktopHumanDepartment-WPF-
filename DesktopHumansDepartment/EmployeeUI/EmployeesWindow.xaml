@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="EmployeesWindow" Height="300" Width="300">
     <Grid>
-        
+        <Button x:Name="addEmployee" Content="Add Employee" HorizontalAlignment="Left" Margin="100,31,0,0" VerticalAlignment="Top" Width="104" Click="addEmployee_Click"/>
+        <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Margin="100,163,0,0" VerticalAlignment="Top" Width="104" Click="back_Click"/>
+        <Button x:Name="exit" Content="Exit" HorizontalAlignment="Left" Margin="100,203,0,0" VerticalAlignment="Top" Width="104" Click="exit_Click"/>
+
     </Grid>
 </Window>

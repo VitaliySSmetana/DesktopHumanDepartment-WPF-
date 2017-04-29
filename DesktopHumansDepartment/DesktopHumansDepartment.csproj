@@ -72,47 +72,54 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AddDepartmentWindow.xaml.cs">
+    <Compile Include="DepartmentUI\AddDepartmentWindow.xaml.cs">
       <DependentUpon>AddDepartmentWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ChangeDepartmentWindow.xaml.cs">
+    <Compile Include="DepartmentUI\ChangeDepartmentWindow.xaml.cs">
       <DependentUpon>ChangeDepartmentWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DepartmentInfoWindow.xaml.cs">
+    <Compile Include="DepartmentUI\DepartmentInfoWindow.xaml.cs">
       <DependentUpon>DepartmentInfoWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DepartmentsWindow.xaml.cs">
+    <Compile Include="DepartmentUI\DepartmentsWindow.xaml.cs">
       <DependentUpon>DepartmentsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EmployeesWindow.xaml.cs">
+    <Compile Include="EmployeeUI\AddEmployeeWindow.xaml.cs">
+      <DependentUpon>AddEmployeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeUI\EmployeesWindow.xaml.cs">
       <DependentUpon>EmployeesWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PositionsWindow.xaml.cs">
+    <Compile Include="PositionUI\PositionsWindow.xaml.cs">
       <DependentUpon>PositionsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ProjectsWindow.xaml.cs">
+    <Compile Include="ProjectUI\ProjectsWindow.xaml.cs">
       <DependentUpon>ProjectsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SearchWindow.xaml.cs">
+    <Compile Include="SearchUI\SearchWindow.xaml.cs">
       <DependentUpon>SearchWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="AddDepartmentWindow.xaml">
+    <Page Include="DepartmentUI\AddDepartmentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ChangeDepartmentWindow.xaml">
+    <Page Include="DepartmentUI\ChangeDepartmentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DepartmentInfoWindow.xaml">
+    <Page Include="DepartmentUI\DepartmentInfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DepartmentsWindow.xaml">
+    <Page Include="DepartmentUI\DepartmentsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EmployeesWindow.xaml">
+    <Page Include="EmployeeUI\AddEmployeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EmployeeUI\EmployeesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,15 +142,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PositionsWindow.xaml">
+    <Page Include="PositionUI\PositionsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ProjectsWindow.xaml">
+    <Page Include="ProjectUI\ProjectsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SearchWindow.xaml">
+    <Page Include="SearchUI\SearchWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

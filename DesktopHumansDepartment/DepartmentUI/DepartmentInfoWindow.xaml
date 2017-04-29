@@ -12,6 +12,13 @@
                 <ContextMenu>
                     <MenuItem Name="add" Header="Add" Click="add_Click"/>
                     <MenuItem Name="change" Header="Change" Click="change_Click"/>
+                    <Separator/>
+                    <MenuItem Header="Employees">
+                        <MenuItem Name="notSorted" Header="NotSorted" Click="notSorted_Click"/>
+                        <MenuItem Name="byPosition" Header="ByPosition" Click="byPosition_Click"/>
+                        <MenuItem Name="bySumProjects" Header="BySumProjects" Click="bySumProjects_Click"/>
+                    </MenuItem>
+                    <Separator/>
                     <MenuItem Name="delete" Header="Delete" Click="delete_Click"/>
                 </ContextMenu>
             </DataGrid.ContextMenu>

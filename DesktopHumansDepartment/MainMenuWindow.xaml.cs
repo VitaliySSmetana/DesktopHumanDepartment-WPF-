@@ -48,7 +48,11 @@ namespace DesktopHumansDepartment
 
         private void employees_Click(object sender, RoutedEventArgs e)
         {
-            new EmployeesWindow().Show();
+            EmployeesWindow employeesWindow = new EmployeesWindow();
+
+            employeesWindow.Owner = this;
+            employeesWindow.Show();
+
             Hide();
         }
 
@@ -60,10 +64,11 @@ namespace DesktopHumansDepartment
 
         private void departments_Click(object sender, RoutedEventArgs e)
         {
-            DepartmentsWindow departments = new DepartmentsWindow();
+            DepartmentsWindow departmentsWindow = new DepartmentsWindow();
 
-            departments.Owner = this;
-            departments.Show();
+            departmentsWindow.Owner = this;
+            departmentsWindow.Show();
+
             Hide();
         }
     }
